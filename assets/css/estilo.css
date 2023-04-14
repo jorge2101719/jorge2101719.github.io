@@ -10,3 +10,9 @@ header {
 #Mis-trabajos {
     background-color: brown;
 }
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
