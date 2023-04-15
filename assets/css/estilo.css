@@ -13,6 +13,15 @@ header {
     margin-bottom: 20%;
 }
 
+#miEstiloModal {
+    overflow: auto;
+}
+
+#miEstiloModal img {
+    float: left;
+    width: 50%;
+}
+
 #logos {
     width: 10%;
 }
