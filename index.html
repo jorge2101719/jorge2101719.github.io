@@ -26,6 +26,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="#">
+                <!--Se hace referencia al id que corresponde al Modal-->
+                <!--Se usa un div, pero se le dan características y clases de botón Bootstrap-->
                 <div type="button" class="btn btn-dark fw-bold fs-1" data-bs-toggle="modal"
                     data-bs-target="#exampleModal">Jorge
                     Álvarez G.
@@ -51,7 +53,7 @@
         </div>
     </nav>
 
-    <!-- Modal -->
+    <!-- Modal sencillo con imagen y un breve texto -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content bg-black text-bg-light text-light">
@@ -83,7 +85,7 @@
 
     <header id="Hero-Section" class="text-light text-end py-5 mt-5">
         <div class="container-fluid">
-            <div class="col-12 col-md-7 ">
+            <div class="col-12 col-md-7">
                 <hgroup>
                     <h1 class="display-4 fw-bold my-5">
                         Desarrollador Front End
@@ -93,18 +95,19 @@
                     </h2>
                 </hgroup>
                 <p class="my-5">
-                    Último trabajo para el temario Introducción al Desarrollo Web. Los objetivos son crear una Gitpage
-                    contenedora de un Portafolio que debe mostrar las imagenes de los proyectos realizado hasta este
-                    punto y vincularlos con las páginas de cada uno y sus respectivos códigos.
+                    Último trabajo para el temario <strong>Introducción al Desarrollo Web</strong>. A continuación se
+                    hace una breve descripción de la forma de trabajar el proyecto. <br> Los objetivos son crear una
+                    Gitpage contenedora de un Portafolio que debe mostrar las imagenes de los proyectos realizado hasta
+                    este punto y vincularlos con las páginas de cada uno y sus respectivos códigos.
                 </p>
                 <p>
                     Se clonó para generar un proyecto en local y trabajar en él. Se usan clases y componentes Bootstrap.
-                    También se recurre a Fontawesome para las figuritas presentes en ella. Se usa Grid, Card y clases
-                    Bootstrap.
+                    También se recurre a Fontawesome para las figuritas presentes en ella (en el footer). Se usa Grid,
+                    Card, Modal, clases Bootstrap, etcétera.
                 </p>
                 <p>
-                    Se usan algunos elementos CSS específicos para dar el efecto de papiro (scroll) con una imagen de
-                    fondo global y otra particular (efecto parallax).
+                    Se usan algunos elementos CSS específicos para dar el efecto de papiro o rollo (scroll) con una
+                    imagen de fondo global y otra particular en la sección Mis Trabajos (parallax).
                 </p>
                 <!--<div class="mb-5 pb-5">
                     <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
@@ -276,7 +279,7 @@
                     <img src="assets/img/PruebaPortafolio.png" class="card-img-top" alt="cv">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">
-                            Prueba Portafolio
+                            Prueba final del primer módulo
                         </h5>
                         <p class="card-text">
                             Trabajo consistente en elaborar una gitpage directamente en el sitio. Luego clonarlo y
@@ -294,13 +297,13 @@
                     <img src="assets/img/ForkProyecto4.png" alt="proyecto4">
                     <div class="card-body">
                         <h5 class="card-title fw-bold">
-                            Fork a Proyectos de Comapañeras
+                            Fork a Proyectos de Compañeras y Compañeros del curso
                         </h5>
                         <p>
-                            Fork al Proyecto 4 de la compañera Jennifer, Vania y Felipe. En el primero se agrega un
-                            área para mensajes y se separa el botón Enviar de los elementos anteriores. En el segundo,
-                            se aumentó la separación horizontal de los elementos Card. Para Felipe solo hice Fork. Sólo
-                            se incluyen los botones para examinar los códigos.
+                            Fork al Proyecto 4 de las compañeras Jennifer, Vania y compañero Felipe. En el primero se
+                            agrega un área para mensajes y se separa el botón Enviar de los elementos anteriores. En el
+                            segundo, se aumentó la separación horizontal de los elementos Card. Para Felipe solo hice
+                            Fork. Sólo se incluyen los botones para examinar los códigos.
                         </p>
                         <button type="button" class="btn btn-outline-info">
                             <a href="https://github.com/jorge2101719/Proyecto4/settings" target="_blank">
@@ -329,7 +332,7 @@
     <section id="Contacto" class="container my-5 text-light">
         <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
         <p class="text-center my-4 d-none d-md-block">
-            Este formulario no tiene todavía la funcionalidad que debería, por no tener desarrollado el Back End.
+            Este formulario no posee todavía la funcionalidad que debe, por no tener un desarrollado el Back End.
         </p>
 
         <form>
