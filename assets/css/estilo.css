@@ -1,11 +1,13 @@
 body {
     background-color: azure;
     font-family: 'Raleway', sans-serif;
+    /* efecto parrallax */
     background-image: url("../img/handshake-3382503_960_720.webp");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    min-height: 100vh;
 }
 
 header {
@@ -43,6 +45,7 @@ header {
 }
 
 #Mis-trabajos {
+    /* efecto parallax */
     background-image: url("../img/woman-865021_960_720.webp");
     background-attachment: fixed;
     background-position: center;
